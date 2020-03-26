@@ -16,7 +16,7 @@
 
 **PHP version :** 2.4.10
 
-## **Extranet server **
+## **Extranet server**
 
 **VM :** - extranet.my-domain.net - ip : 1.2.9.10
 

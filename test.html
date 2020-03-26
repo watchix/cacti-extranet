@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xml:lang="fr" lang="fr">
+	<head>
+		<title>TEST CACTI</title>
+		<script type="text/javascript" src="https://extranet.my-domain.net/extranet/theme/scripts/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript">
+			var loginCacti = encodeURIComponent("my-user");
+			var mdpCacti = encodeURIComponent("my-password");
+			var csrfMagicToken = encodeURIComponent("sid:af0face4d4b906e1dccb1496b9d3ce2d22ba2365,1584620899");
+			$(document).ready(function(){
+				$.ajax({
+					url: "https://cacti.my-domain.net/cacti/logout.php",
+					data: { }
+				}).done(function( html ) {
+					$.ajax({
+						type: "POST",
+						url: "https://cacti.my-domain.net/cacti/index.php",
+						data: {
+							action : "login",
+							__csrf_magic : csrfMagicToken,
+							login_username : loginCacti,
+							login_password : mdpCacti,
+						}
+					})
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<img style="margin-right:auto; margin-left:auto; display:block;" src="https://cacti.my-domain.net/cacti/graph_image.php?local_graph_id=13323&rra_id=1&graph_start=0&graph_end=0"/>
+	</body>
+</html>

@@ -6,7 +6,7 @@
 
 **Cookie domain changed :** my-domain.net - file : include/config.php
 
-**
+**Cookie SameSite changed as 'None':** - file etc/apache2/conf-enabled/cacti.conf
 
 ## **Cacti server** 
 

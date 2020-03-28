@@ -14,7 +14,7 @@
 
 **Apache version :** 2.4.25
 
-**PHP version :** 2.4.10
+**PHP version :** 7.0.19-1
 
 ## **Extranet server**
 
@@ -22,7 +22,7 @@
 
 **Apache version :** 2.4.10
 
-**PHP version :** 7.0.19-1
+**PHP version :** 5.6.40-0
 
 
 ## **Browsers working :**

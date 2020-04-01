@@ -1,4 +1,4 @@
-# Cacti - How to display graphs from an (external hosted) extranet
+# How to display graphs from an (external hosted) extranet
 
 **Cacti version :** 1.2.11
 
@@ -26,8 +26,6 @@
 ## **Browsers working :**
 
 **Internet Explorer** 11.xx
-
-## **Browsers NOT working :**
 
 **Chrome** 80.xx
 

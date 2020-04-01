@@ -4,6 +4,8 @@
 
 **Cookie domain option changed :** my-domain.net - file : /usr/share/cacti/site/include/config.php
 
+**CSRF token is fixed :** 'sid:af0face4d4b906e1dccb1496b9d3ce2d22ba2365,1584620899' - file : include/vendor/csrf/csrf-magic.php
+
 **Cookie SameSite option changed as 'None':** - file : /etc/apache2/conf-enabled/cacti.conf
 
 ## **Cacti server** 

@@ -2,8 +2,6 @@
 
 **Cacti version :** 1.2.11
 
-**CSRF token is fixed :** 'sid:af0face4d4b906e1dccb1496b9d3ce2d22ba2365,1584620899' - file : include/vendor/csrf/csrf-magic.php
-
 **Cookie domain changed :** my-domain.net - file : include/config.php
 
 **Cookie SameSite changed as 'None':** - file etc/apache2/conf-enabled/cacti.conf

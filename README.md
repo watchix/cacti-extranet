@@ -8,7 +8,7 @@
 
 ## **Cacti server** 
 
-**VM :** cacti.my-domain.net - ip : 1.2.3.4
+**VM :** cacti.my-domain.net => Public IP Y.Y.Y.Y
 
 **Apache version :** 2.4.25
 
@@ -16,7 +16,7 @@
 
 ## **Extranet server**
 
-**VM :** - extranet.my-domain.net - ip : 1.2.9.10
+**VM :** - extranet.my-domain.net => Public IP Z.Z.Z.Z
 
 **Apache version :** 2.4.10
 

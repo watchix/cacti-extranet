@@ -2,9 +2,9 @@
 
 **Cacti version :** 1.2.11
 
-**Cookie domain changed :** my-domain.net - file : include/config.php
+**Cookie domain changed :** my-domain.net - file : /usr/share/cacti/site/include/config.php
 
-**Cookie SameSite changed as 'None':** - file etc/apache2/conf-enabled/cacti.conf
+**Cookie SameSite changed as 'None':** - file : /etc/apache2/conf-enabled/cacti.conf
 
 ## **Cacti server** 
 

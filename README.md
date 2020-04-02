@@ -29,6 +29,8 @@
 
 **Internet Explorer** 11.xx
 
+## **Browsers NOT working :**
+
 **Chrome** 80.xx
 
 **Firefox** 74
